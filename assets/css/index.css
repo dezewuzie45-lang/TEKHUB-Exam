@@ -55,8 +55,12 @@ header {
 .btn-primary:hover {
     background-color: #1f0b61; 
 }
+.hr1{
+     padding: 30px 0;
+}
 .hero {
     padding: 30px 0;
+    /* background-color: #d3d4da; */
 }
 
 .hero-container {
@@ -107,16 +111,30 @@ header {
     border-radius: 10px;
     
 }
-.talk{
-    display:flex;
-    margin-top:10px;
-    width:1100px;
-     padding: 30px 0;;
+.bottom{
+    display: flex;
+    gap: 200px;
+    padding:30px auto;
+    margin-left:170px;
+    margin-top: 10px;
+    
 
 }
-.talk-text{
-    display: flex;
-    background-color: #c4c5ca;
-    align-items: center;
-
+.bottom h4{
+    color: black;
+}
+.bottom img{
+    background-color: rgba(211, 67, 10, 0.925);
+    padding: 12px;
+    border-radius:50px
+}
+.USE h1{
+    color: #242d52;
+}
+USE p{
+    color: #9095a7;
+}
+.USE{
+    margin-top: 50px;
+    margin-left:140px;
 }
